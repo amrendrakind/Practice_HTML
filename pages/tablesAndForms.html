@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables and Forms</title>
+</head>
+<body>
+    <header>
+        <h1>Learning Tables and Forms</h1>
+        <hr>
+        <h3>Creation of Tables</h3>
+    </header>
+    <table>
+        <thead>
+            <tr>
+                <th>Heading 1</th>
+                <th>Heading 2</th>
+                <th>Heading 3</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>Data1</td>
+                <td>Data2</td>
+                <td>Data3</td>
+            </tr>
+            <tr>
+                <td>Data4</td>
+                <td>Data5</td>
+                <td>Data6</td>
+            </tr>
+            <tr>
+                <td>Data7</td>
+                <td>Data8</td>
+                <td>Data9</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Summary1</td>
+                <td>Summary2</td>
+                <td>Summary3</td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr color="Blue">
+    <header>
+        <h3>Creation of Forms</h3>
+    </header>
+
+    <form action="#">
+
+        <div>
+            <label for="username">User Name</label>
+            <input type="text" id="username">
+        </div>
+
+        <div>
+            <label for="password"> Password</label>
+            <input type="password" id="password">
+        </div>
+
+        <div>
+            <label>Favorite Instructor:</label>
+            <input type="radio" name="favorite_instructor" id="elie">
+            <label for="elie">Elie</label>
+            <input type="radio" name="favorite_instructor" id="matt">
+            <label for="matt">Matt</label>
+            <input type="radio" name="favorite_instructor" id="tim">
+            <label for="tim">Tim</label>
+        </div>
+
+        <div>
+            <label>Favorite Programming Language(s):</label>
+            <input type="checkbox" name="favorite_language" id="ruby">
+            <label for="ruby">Ruby</label>
+            <input type="checkbox" name="favorite_language" id="javascript">
+            <label for="javascript">javaScript</label>
+            <input type="checkbox" name="favorite_language" id="python">
+            <label for="python">Python</label>
+            <input type="checkbox" name="favorite_language" id="go">
+            <label for="go">Go</label>
+        </div>
+
+        <div>
+            <label>Additional Comments:</label><br>
+            <textarea name="" id="" cols="50" rows="5"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+
+</body>
+</html>
