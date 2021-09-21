@@ -8,14 +8,27 @@
     <style>
         #table{
             display: table;
+            
         }
         .row{
             display: table-row;
         }
         .cell{
             display: table-cell;
-            border:1px solid black;
+            border:1px solid blue;
             padding: 5px;
+        }
+        #outer{
+            display: table;
+            width: 600px;
+            height: 600px;
+            background-color: blueviolet;
+            color: wheat;
+        }
+        #inner{
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
         }
     </style>
 </head>
@@ -37,5 +50,11 @@
             <div class="cell">Data 9</div>
         </div>
     </div>
+    <br>
+    <h3>Text Display in Vertically Alligned</h3>
+    <div id="outer"> 
+        <div id="inner">WOAH I'M VERITCALLY IN MIDDLE!!!</div>
+    </div>
+
 </body>
 </html>
