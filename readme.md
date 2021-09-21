@@ -8,3 +8,4 @@
 - Specificity in CSS
 - Common Rules in CSS
 - Box Model
+- Positions, Float
