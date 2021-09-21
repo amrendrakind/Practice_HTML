@@ -21,3 +21,14 @@ footer{
 body{
     margin-bottom: 120px;
 }
+img{
+    float: left;
+    margin: 0 0 10px 0px;
+}
+div{
+    width: 900px;
+    height: 280px;
+    border: solid teal 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
