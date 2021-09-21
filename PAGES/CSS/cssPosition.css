@@ -1,0 +1,23 @@
+.container{
+    position: relative;
+}
+nav{
+    position: absolute;
+    left: 0;
+    width: 200px;
+}
+section{
+    margin-left: 200px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 30px;
+    background-color:darkslategray;
+    width: 100%;
+    text-align: center;
+}
+body{
+    margin-bottom: 120px;
+}
