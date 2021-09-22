@@ -1,0 +1,36 @@
+div{
+    height: 100px;
+    width: 100px;
+    color: wheat;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background:tomato;
+    height: 500px;
+    width: 500px;
+}
+.first{
+    display: flex;
+    background: red;
+    align-items: center;
+    justify-content: space-around;
+    order: 1;
+}
+.second{
+    background:firebrick;
+}
+.third{
+    background: chocolate;
+    align-self:flex-end;
+}
+.fourth{
+    background:crimson;
+}
+.fifth{
+    background:darkgreen;
+}
+.sixth{
+    background: darkblue;
+    order: -1;
+}
