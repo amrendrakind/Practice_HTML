@@ -11,11 +11,12 @@
         }
         .red{
             background-color: red;
-            position: absolute;
+            position: fixed;
             width: 200px;
             height: 200px;
             bottom: 0;
-            right: 0;
+            left: 0;
+            z-index: 1;
         }
         .wrapper{
             width: 600px;
@@ -24,11 +25,19 @@
             position: relative;
             margin-bottom: 10px;
         }
+        #front{
+            z-index: 2;
+        }
     </style>
 </head>
 <body>
     <div class="wrapper">
         <div class="red">I am a class red wrapped in Wrapper</div>
-    </div>    
+    </div>
+    <div class="wrapper">1</div>
+    <div class="wrapper">2</div>
+    <div class="wrapper">3</div>
+    <div class="wrapper" id="front">4. Front</div>
+    <div class="wrapper">5</div>    
 </body>
 </html>
