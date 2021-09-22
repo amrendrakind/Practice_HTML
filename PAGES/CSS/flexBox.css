@@ -19,13 +19,15 @@ div{
 }
 .second{
     background:firebrick;
+    align-self:flex-end;
 }
 .third{
     background: chocolate;
-    align-self:flex-end;
+    
 }
 .fourth{
     background:crimson;
+    align-self:flex-end;
 }
 .fifth{
     background:darkgreen;
@@ -33,4 +35,8 @@ div{
 .sixth{
     background: darkblue;
     order: -1;
+}
+.seventh{
+    background:silver;
+    align-self:flex-end;
 }
